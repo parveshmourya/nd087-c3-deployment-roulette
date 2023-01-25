@@ -1,0 +1,15 @@
+parvesh@parvesh-Legion-5:~/workspace/udacity/sre/nd087-c3-deployment-roulette/starter/infra$ kubectl get pods --all-namespaces
+NAMESPACE     NAME                         READY   STATUS    RESTARTS   AGE
+kube-system   aws-node-hzfb7               1/1     Running   0          19m
+kube-system   aws-node-zkrgb               1/1     Running   0          19m
+kube-system   coredns-f47955f89-4xrp7      1/1     Running   0          24m
+kube-system   coredns-f47955f89-5gl2h      1/1     Running   0          24m
+kube-system   kube-proxy-ftm84             1/1     Running   0          19m
+kube-system   kube-proxy-pjhjt             1/1     Running   0          19m
+udacity       canary-v1-64598c676f-4bpwd   1/1     Running   0          12m
+udacity       canary-v1-64598c676f-5z5r7   1/1     Running   0          12m
+udacity       canary-v1-64598c676f-sp8lv   1/1     Running   0          12m
+udacity       canary-v2-5dc9c56687-77wtl   1/1     Running   0          4m57s
+udacity       canary-v2-5dc9c56687-cv987   1/1     Running   0          4m58s
+udacity       canary-v2-5dc9c56687-pclcw   1/1     Running   0          4m57s
+udacity       debug                        1/1     Running   0          4m44s
